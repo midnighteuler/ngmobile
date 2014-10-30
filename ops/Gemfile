@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+# This is included to standardize which ruby/sass version we use in compilation
+# of stylesheets
+ruby "2.1.1"
+gem "compass"

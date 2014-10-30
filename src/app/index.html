@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="ngmobile" ng-controller="AppCtrl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title ng-bind="pageTitle"></title>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- <link rel="stylesheet" href="vendor/some.contrib.css"> -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/ionic/release/css/ionic.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/feature1/feature1.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div class="container" ui-view="main"></div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- This Google Maps API file was downloaded from: -->
+    <!-- https://maps.googleapis.com/maps/api/js?key=(google_maps_v3_javascript_api_key_here)&sensor=true -->
+    <!-- Saving it in the vendor/ directory allows it to be bundled as part of the build system. -->
+    <!-- You should replace it with a version downloaded using your API key -->
+    <script src="vendor/google/maps.js"></script>
+    <!-- bower:js -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/collide/collide.js"></script>
+    <script src="lib/ionic/release/js/ionic.js"></script>
+    <script src="lib/ionic/release/js/ionic-angular.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- build:js modules/scripts.js -->
+    <script src="modules/config.js"></script>
+    <script src="modules/app.js"></script>
+    <script src="modules/feature1/feature1.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

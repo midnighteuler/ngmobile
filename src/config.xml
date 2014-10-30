@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.example.ngmobile" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>ngmobile</name>
+  <description>
+        Boilerplate mobile angularjs project
+    </description>
+  <author email="mike@michaelsouza.com" href="http://github.com/midnighteuler/ngmobile">
+        Michael Souza
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+</widget>
